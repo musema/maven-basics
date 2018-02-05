@@ -1,0 +1,13 @@
+<project name="Maven Basics Demo">
+	<bannerLeft>
+		<name>OpenLAne</name>
+		<src>images/adesa_logo.gif</src>
+		<href>http://www.adesa.com</href>
+	</bannerLeft>
+	<body>
+		<menu name="Maven Basics Demo">
+		<item name="Overview" href="index.html"/>
+		</menu>
+		<menu ref="reports"/>
+	</body>
+</project>
