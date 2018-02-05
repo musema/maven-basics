@@ -2,20 +2,22 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
   	<groupId>com.openlane.demo</groupId>
-  	<artifactId>parent</artifactId>
-  	<version>0.0.1</version>
+  	<artifactId>openlane-parent</artifactId>
+  	<version>0.0.4-SNAPSHOT</version>
   </parent>
   <groupId>com.openlane.demo</groupId>
   <artifactId>maven-basics</artifactId>
-  <version>0.0.1</version>
+  <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
-
   <name>maven-basics</name>
-  <url>http://maven.apache.org</url>
-
+  <url>http://www.openlane.com/demo</url>
+  
+  <organization>
+  	<name>OpenLane</name>
+  	<url>http://www.openlane.com</url>
+  </organization>
   <scm>
   	<connection>scm:git:https://github.com/musema/maven-basics.git</connection>
     <tag>maven-basics-0.0.1</tag>
   </scm>
- 
 </project>
