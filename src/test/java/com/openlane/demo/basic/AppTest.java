@@ -1,4 +1,4 @@
-package com.openlane.demo.maven_basics;
+package com.openlane.demo.basic;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
