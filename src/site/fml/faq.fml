@@ -1,0 +1,23 @@
+<?xml version="1.0"?> 
+<faqs title="FAQs about Basic Maven Application">
+
+  <part id="about"> 
+    <faq id="FAQ-1"> 
+      <question> What is Basic Maven Application?</question> 
+      <answer> 
+        <p> 
+          It is a demo app intended to show maven best practices.
+        </p> 
+      </answer> 
+    </faq>
+
+    <faq id="FAQ-2"> 
+      <question> Can I clone this project?</question> 
+      <answer> 
+        <p> 
+          Yes, you can clone it. Check SCM info in project information section.
+        </p> 
+      </answer> 
+    </faq> 
+  </part> 
+</faqs>

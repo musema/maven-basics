@@ -5,9 +5,25 @@
 		<href>http://www.adesa.com</href>
 	</bannerLeft>
 	<body>
-		<menu name="Maven Basics Demo">
-		<item name="Overview" href="index.html"/>
+		<head>
+				<link href="http://karauctionservices.com/news-center"
+				type="application/atom+xml"
+				id="auto-discovery"
+				rel="alternate"
+				title="News KAR" />
+		</head>
+			<links>
+				<item name="ADESA" href="https://www.adesa.com"/>
+				<item name="KAR Auction Services" href="http://karauctionservices.com"/>
+			</links>
+		<menu name="Maven Basics Demo Project">
+			<item name="Overview" href="index.html"/>
+			<item name="Features" href="features.html"/>
+			<item name="Installation" href="installation.html"/>
+			<item name="FAQs" href="faq.html"/>
+			<item name="ADESA Dev Forum" href="index.html"/>
 		</menu>
-		<menu ref="reports"/>
+		${reports}
+	
 	</body>
 </project>
