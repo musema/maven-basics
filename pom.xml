@@ -5,13 +5,15 @@
   	<artifactId>openlane-parent</artifactId>
   	<version>0.0.4-SNAPSHOT</version>
   </parent>
-  <groupId>com.openlane.demo</groupId>
   <artifactId>maven-basics</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>1.1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
-  <name>maven-basics</name>
+  <name>Basic Maven Demo</name>
   <url>http://www.openlane.com/demo</url>
-  
+  <description>
+  	This is a simple Maven Demo project. It inherits most of project configuration from the parent POM. 
+  	We believe controlling project configuration parameter from centerallized parent project is better approach to deal with changes
+  </description>
   <organization>
   	<name>OpenLane</name>
   	<url>http://www.openlane.com</url>
